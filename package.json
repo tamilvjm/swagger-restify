@@ -9,6 +9,7 @@
     "coffee-script": "*",
     "doctrine": "*",
     "js-yaml": "~2.1.0",
+    "json-schema": "^0.2.2",
     "restify": "^2.8.5",
     "underscore": "*"
   },
