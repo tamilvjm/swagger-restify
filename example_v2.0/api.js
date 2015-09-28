@@ -51,7 +51,7 @@ exports.login = function (req, res, next) {
  *   parameters:
  *     - name: name
  *       in: query
- *       description: Object name to say hello to.
+ *       description: Hello subject
  *       required: true
  *       type: string
 */
