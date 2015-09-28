@@ -11,7 +11,7 @@ var server = restify.createServer({
 });
 
 server.pre(restify.pre.userAgentConnection());
-server.use(restify.bodyParser({ mapParams: false }));
+server.use(restify.queryParser({ mapParams: false }));
 
 restify.defaultResponseHeaders = function(data) {
     this.header('Access-Control-Allow-Origin', '*');

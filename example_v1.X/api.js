@@ -30,11 +30,11 @@
  */
 exports.login = function (req, res, next) {
   var user = {};
-  user.username = req.params.username;
-  user.password = req.params.password;
+  user.username = req.query.username;
+  user.password = req.query.password;
   res.send(200, user);
   next();
-}
+};
 
 /**
  * @swagger
