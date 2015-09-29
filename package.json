@@ -14,7 +14,6 @@
     "underscore": "*"
   },
   "devDependencies": {
-    "jade": "*",
     "jshint": "*"
   },
   "scripts": {
