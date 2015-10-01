@@ -1,6 +1,6 @@
 tags:
   - name: exampleYml
-    description: All about API using CoffeeScript annotations
+    description: All about API using YAML annotations
 parameters:
   - name: username
     in: query
