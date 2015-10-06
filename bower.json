@@ -1,0 +1,25 @@
+{
+  "name": "swagger-restify",
+  "main": "index.js",
+  "version": "1.1.1",
+  "homepage": "https://github.com/vellotis/swagger-restify",
+  "authors": [
+    "Kaarel Raspel <kaarel.raspel@gmail.com>"
+  ],
+  "description": "",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "swagger-ui": "~2.1.3"
+  }
+}
