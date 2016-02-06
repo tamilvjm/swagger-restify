@@ -1,7 +1,7 @@
 {
   "name": "swagger-restify",
   "description": "Document your restify rest api by jsDoc or yaml.",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "author": "fliptoo <fliptoo.studio@gmail.com>, sposmen <sposmen@gmail.com>, eugene@takeaway.com",
   "main": "./index",
   "dependencies": {
@@ -10,14 +10,15 @@
     "doctrine": "*",
     "js-yaml": "~2.1.0",
     "restify": "^2.8.5",
+    "swagger-tools": "^0.9.5",
     "underscore": "*"
   },
   "devDependencies": {
-    "jade": "*",
     "jshint": "*"
   },
   "scripts": {
-    "test": "jshint --config jshint.cfg $(find . -name *.js | grep -v './node_modules')"
+    "test": "jshint --config jshint.cfg $(find . -name *.js | grep -v './node_modules')",
+    "postinstall": "bower install"
   },
   "keywords": [
     "swagger",
