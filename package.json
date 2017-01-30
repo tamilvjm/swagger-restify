@@ -1,5 +1,5 @@
 {
-  "name": "swagger-restify",
+  "name": "swagger-restify-parser",
   "description": "Document your restify rest api by jsDoc or yaml.",
   "version": "1.1.1",
   "author": "",
