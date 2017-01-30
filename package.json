@@ -2,7 +2,7 @@
   "name": "swagger-restify",
   "description": "Document your restify rest api by jsDoc or yaml.",
   "version": "1.1.1",
-  "author": "fliptoo <fliptoo.studio@gmail.com>, sposmen <sposmen@gmail.com>, eugene@takeaway.com",
+  "author": "",
   "main": "./index",
   "dependencies": {
     "async": "~0.2.7",
@@ -31,5 +31,5 @@
     "coffee-script",
     "restful"
   ],
-  "repository": "git://github.com/yourdelivery/swagger-restify"
+  "repository": "git://github.com/tamilvjm/swagger-restify"
 }
